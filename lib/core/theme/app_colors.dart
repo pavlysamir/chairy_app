@@ -8,6 +8,8 @@ class AppColors {
 
   static const white = Color(0xffffffff);
 
+  static const black = Color(0x00000000);
+
   // grey scale
   static const grey900 = Color(0xff0d0d12);
   static const grey800 = Color(0xff1a1b25);

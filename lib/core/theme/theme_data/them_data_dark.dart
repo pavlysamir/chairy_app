@@ -13,8 +13,8 @@ ThemeData getDarkTheme() {
       brightness: Brightness.dark,
     ),
     textTheme: ThemeData.light().textTheme.apply(
-          bodyColor: AppColors.grey0,
-          displayColor: AppColors.grey0,
+          bodyColor: AppColors.white,
+          displayColor: AppColors.white,
         ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(

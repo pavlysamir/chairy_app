@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:trendco_app/features/cart/presentation/views/cart_screen.dart';
 import 'package:trendco_app/features/categories/presentation/views/categories_screen.dart';
 import 'package:trendco_app/features/home/presentation/views/home_screen.dart';
 
@@ -14,6 +15,7 @@ class HomeLayoutCubit extends Cubit<HomeLayoutState> {
   List screens = [
     const HomeScreen(),
     const CategoriesScreen(),
+    const CartScreen(),
   ];
 
   void changeBottomNavBar(int index) {

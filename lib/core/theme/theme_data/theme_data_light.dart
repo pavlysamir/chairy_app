@@ -21,8 +21,8 @@ ThemeData getLightTheme() {
       brightness: Brightness.light,
     ),
     textTheme: ThemeData.light().textTheme.apply(
-          bodyColor: AppColors.grey900,
-          displayColor: AppColors.grey900,
+          bodyColor: AppColors.black,
+          displayColor: AppColors.black,
         ),
     textButtonTheme: TextButtonThemeData(
       style: TextButton.styleFrom(
