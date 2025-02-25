@@ -17,12 +17,18 @@ class CodegenLoader extends AssetLoader{
   static const Map<String,dynamic> _ar = {
   "hello": "مرحبا",
   "world": "العالم",
-  "hello_world": "مرحبا بالعالم"
+  "hello_world": "مرحبا بالعالم",
+  "home": "الصفحة الرئيسية",
+  "categories": "التصنيفات",
+  "cart": "السلة"
 };
 static const Map<String,dynamic> _en = {
   "hello": "Hello",
   "world": "World",
-  "hello_world": "Hello World"
+  "hello_world": "Hello World",
+  "home": "Home",
+  "categories": "Categories",
+  "cart": "Cart"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"ar": _ar, "en": _en};
 }

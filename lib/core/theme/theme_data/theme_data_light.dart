@@ -15,7 +15,7 @@ ThemeData getLightTheme() {
     ),
     scaffoldBackgroundColor: AppColors.grey0,
     brightness: Brightness.light,
-    fontFamily: AppFonts.poppins,
+    fontFamily: AppFonts.gilroy,
     colorScheme: ColorScheme.fromSeed(
       seedColor: AppColors.primaryColor,
       brightness: Brightness.light,

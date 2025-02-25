@@ -2,9 +2,12 @@
 
 // ignore_for_file: constant_identifier_names
 
-abstract class  LocaleKeys {
+abstract class LocaleKeys {
   static const hello = 'hello';
   static const world = 'world';
   static const hello_world = 'hello_world';
+  static const home = 'home';
+  static const categories = 'categories';
 
+  static const cart = 'cart';
 }

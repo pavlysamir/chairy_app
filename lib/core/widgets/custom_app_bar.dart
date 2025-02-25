@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:iconly/iconly.dart';
 
 AppBar mainAppBar(context, {String? title}) {
   return AppBar(
@@ -10,13 +11,20 @@ AppBar mainAppBar(context, {String? title}) {
     // title: const CustomTitleAppBar(),
     actions: [
       const SizedBox(width: 10),
-      // IconButton(
-      //   icon: const Icon(
-      //     IconlyLight.notification,
-      //     size: 24,
-      //   ),
-      //   onPressed: () {},
-      // ),
+      IconButton(
+        icon: const Icon(
+          IconlyLight.search,
+          size: 24,
+        ),
+        onPressed: () {},
+      ),
+      IconButton(
+        icon: const Icon(
+          IconlyLight.activity,
+          size: 24,
+        ),
+        onPressed: () {},
+      ),
     ],
   );
 }

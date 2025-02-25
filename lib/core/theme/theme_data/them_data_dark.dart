@@ -7,7 +7,7 @@ ThemeData getDarkTheme() {
   return ThemeData(
     scaffoldBackgroundColor: AppColors.grey900,
     brightness: Brightness.dark,
-    fontFamily: AppFonts.poppins,
+    fontFamily: AppFonts.gilroy,
     colorScheme: ColorScheme.fromSeed(
       seedColor: AppColors.primaryColor,
       brightness: Brightness.dark,
