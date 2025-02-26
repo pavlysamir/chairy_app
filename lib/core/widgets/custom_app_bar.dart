@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:iconly/iconly.dart';
 import 'package:trendco_app/core/theme/app_text_styles.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -28,11 +29,13 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(title, style: AppTextStyles.font28Regular),
+              Text(title,
+                  style: AppTextStyles.font28Regular.copyWith(
+                      color: isTransparent ? Colors.white : Colors.black)),
               Row(
                 children: [
                   IconButton(
-                    icon: const Icon(Icons.search, color: Colors.amber),
+                    icon: const Icon(IconlyLight.search, color: Colors.amber),
                     onPressed: onSearchPressed ?? () {},
                   ),
                   IconButton(

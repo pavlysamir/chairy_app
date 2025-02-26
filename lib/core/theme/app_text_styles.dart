@@ -13,6 +13,12 @@ class AppTextStyles {
     fontWeight: FontWeightHelper.extraBold,
   );
 
+  static const TextStyle font42ExtraBold = TextStyle(
+    fontSize: 42,
+    fontFamily: AppFonts.gilroy,
+    fontWeight: FontWeightHelper.extraBold,
+  );
+
   static const TextStyle font16Bold = TextStyle(
     fontSize: 16,
     fontFamily: AppFonts.gilroy,

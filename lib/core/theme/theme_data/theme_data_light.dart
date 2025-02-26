@@ -20,10 +20,35 @@ ThemeData getLightTheme() {
       seedColor: AppColors.primaryColor,
       brightness: Brightness.light,
     ),
-    textTheme: ThemeData.light().textTheme.apply(
-          bodyColor: AppColors.black,
-          displayColor: AppColors.black,
-        ),
+    textTheme: TextTheme(
+      // Headline styles
+      headlineLarge:
+          AppTextStyles.font32ExtraBold.copyWith(color: AppColors.white),
+      headlineMedium:
+          AppTextStyles.font28Regular.copyWith(color: AppColors.white),
+      headlineSmall:
+          AppTextStyles.font28Regular.copyWith(color: AppColors.white),
+
+      // // Title styles
+      // titleLarge: AppTextStyles.font20Bold.copyWith(color: AppColors.white),
+      // titleMedium: AppTextStyles.font16Bold.copyWith(color: AppColors.white),
+      // titleSmall: AppTextStyles.font14Bold.copyWith(color: AppColors.white),
+
+      // // Body styles
+      // bodyLarge: AppTextStyles.font16Regular.copyWith(color: AppColors.white),
+      // bodyMedium: AppTextStyles.font14Regular.copyWith(color: AppColors.white),
+      // bodySmall: AppTextStyles.font12Regular.copyWith(color: AppColors.white),
+
+      // // Display styles
+      // displayLarge: AppTextStyles.font32Bold.copyWith(color: AppColors.white),
+      // displayMedium: AppTextStyles.font28Regular.copyWith(color: AppColors.white),
+      // displaySmall: AppTextStyles.font24Regular.copyWith(color: AppColors.white),
+
+      // // Label styles
+      // labelLarge: AppTextStyles.font14Medium.copyWith(color: AppColors.white),
+      // labelMedium: AppTextStyles.font12Medium.copyWith(color: AppColors.white),
+      // labelSmall: AppTextStyles.font10Medium.copyWith(color: AppColors.white),
+    ),
     textButtonTheme: TextButtonThemeData(
       style: TextButton.styleFrom(
         textStyle: AppTextStyles.font20Regular.copyWith(

@@ -10,4 +10,8 @@ extension ContextExt on BuildContext {
   CustomColors get customColors {
     return Theme.of(this).customColors;
   }
+
+  Color get textColor {
+    return isDarkMode ? Colors.white : Colors.black;
+  }
 }

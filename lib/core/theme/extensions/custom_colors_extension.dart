@@ -6,11 +6,11 @@ class CustomColors {
   final Color secondaryColor;
 
   factory CustomColors._light() {
-    return const CustomColors._(secondaryColor: AppColors.grey400);
+    return const CustomColors._(secondaryColor: AppColors.black);
   }
 
   factory CustomColors._dark() {
-    return const CustomColors._(secondaryColor: AppColors.grey300);
+    return const CustomColors._(secondaryColor: AppColors.white);
   }
 }
 
