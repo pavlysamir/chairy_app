@@ -20,7 +20,10 @@ class CodegenLoader extends AssetLoader{
   "hello_world": "مرحبا بالعالم",
   "home": "الصفحة الرئيسية",
   "categories": "التصنيفات",
-  "cart": "السلة"
+  "cart": "السلة",
+  "menu": "القائمة",
+  "search": "بحث",
+  "language": "اللغة"
 };
 static const Map<String,dynamic> _en = {
   "hello": "Hello",
@@ -28,7 +31,10 @@ static const Map<String,dynamic> _en = {
   "hello_world": "Hello World",
   "home": "Home",
   "categories": "Categories",
-  "cart": "Cart"
+  "cart": "Cart",
+  "menu": "Menu",
+  "search": "Search",
+  "language": "Language"
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"ar": _ar, "en": _en};
 }

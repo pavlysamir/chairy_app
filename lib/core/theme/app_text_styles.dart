@@ -49,10 +49,16 @@ class AppTextStyles {
     fontWeight: FontWeightHelper.semiBold,
   );
 
-  static const font24Extrabold = TextStyle(
+  static const font24ExtraboldWhite = TextStyle(
     color: Colors.white,
     fontFamily: AppFonts.gilroy,
     fontWeight: FontWeightHelper.extraBold,
+    fontSize: 24,
+  );
+
+  static const font24Extrabold = TextStyle(
+    fontFamily: AppFonts.gilroy,
+    fontWeight: FontWeightHelper.black,
     fontSize: 24,
   );
 
@@ -72,6 +78,11 @@ class AppTextStyles {
     fontFamily: AppFonts.gilroy,
     fontSize: 12,
     fontWeight: FontWeightHelper.regular,
+  );
+  static const font14Bold = TextStyle(
+    fontFamily: AppFonts.gilroy,
+    fontSize: 14,
+    fontWeight: FontWeightHelper.bold,
   );
 
   static const font24gilroyRegular = TextStyle(

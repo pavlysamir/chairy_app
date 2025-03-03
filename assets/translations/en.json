@@ -4,5 +4,10 @@
     "hello_world": "Hello World",
     "home": "Home",
     "categories": "Categories",
-    "cart": "Cart"
+    "cart": "Cart",
+    "menu": "Menu",
+    "search": "Search",
+    "language": "Language"
+
+    
 }

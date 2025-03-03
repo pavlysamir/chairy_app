@@ -10,4 +10,7 @@ abstract class LocaleKeys {
   static const categories = 'categories';
 
   static const cart = 'cart';
+  static const menu = 'menu';
+  static const language = 'language';
+  static const search = 'search';
 }

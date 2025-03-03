@@ -36,7 +36,7 @@ class IntroHomeWidget extends StatelessWidget {
                   const Text(
                     textAlign: TextAlign.center,
                     'Make Your Interior\nMore Minimalistic\n& Modern',
-                    style: AppTextStyles.font24Extrabold,
+                    style: AppTextStyles.font24ExtraboldWhite,
                   ),
                   const SizedBox(height: 12),
                   const Text(
